@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_recipe_ingredient_quantities",
+  "info": {
+    "name": "ingredient_quantity",
+    "icon": "apple-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "amount": {
+      "type": "integer"
+    },
+    "ingredient": {
+      "model": "ingredient"
+    },
+    "unit": {
+      "type": "enumeration",
+      "enum": [
+        "kg",
+        "g",
+        "ml",
+        "szt"
+      ]
+    }
+  }
+}
